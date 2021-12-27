@@ -5,14 +5,16 @@ body {
 }
 
 .izquierda {
-        background-color:rgb(5, 34, 34);
+        background: #534b47;
         height: 150vh;
         width: 35%;
         color:whitesmoke;
 }
 
 .derecha {
-        background-color:lightgrey;
+        background: #1e130c;  /* fallback for old browsers */
+        background: rgb(154,111,95);
+        background: linear-gradient(90deg, rgba(154,111,95,1) 0%, rgba(208,187,164,1) 100%);
         width: 65%;
         height: 150vh;
 }
@@ -29,9 +31,9 @@ h1 {
 }
 
 img {
-        padding-left: 50px;
+        padding-left: 75px;
         padding-top: 40px;
-
+        
 }
 
 p {
@@ -57,14 +59,17 @@ ul {
         font-family: Arial, Helvetica, sans-serif;    
 }
 
-#resumen {
+#resumen-experiencia {
         width: 770px;
-        background-color:darkseagreen;
+        background: #d0bba4;
         text-align: justify;
         margin: 25px;
         padding: 20px;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
-        border: 3px solid darkslategrey;
+        border: 3px solid #534b47;
+        box-shadow: 10px 5px 5px #534b47;
+        column-count: 2;
+        border-radius: 20px 0px;
 }
 
 #alineacion-izq {
@@ -74,4 +79,16 @@ ul {
 
 #experiencia {
         padding-left: 60px;
+}
+
+#caracteristicas-personales {
+        width: 770px;
+        background-color: #d0bba4;
+        text-align: center;
+        margin: 20px;
+        padding: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        border: 3px solid #534b47;
+        box-shadow: 10px 5px 5px #534b47;
+        border-radius: 20px 0px;
 }
