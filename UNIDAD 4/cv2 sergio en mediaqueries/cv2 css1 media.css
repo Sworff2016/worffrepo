@@ -1,0 +1,33 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.contenedor {
+    width: 100%;
+    background-color: #A7C8F2;
+    padding: 3px;
+}
+nav {
+    background-color: #85a9ab;
+    float: none;
+    width: 100%;
+    list-style: lower-roman;
+    border: solid 3px;
+    padding: 3px;
+}
+.contenido {
+    background-color: #85A9Ab;
+    float: none;
+    margin-left: 0;
+    width: 100%;
+    border: solid 3px;
+    padding: 3px;
+}
+aside {
+    background-color: #85A9Ab;
+    float: none;
+    width: 100%;
+    border: solid 3px;
+    margin-left: 0;
+    padding: 3px;
+}
