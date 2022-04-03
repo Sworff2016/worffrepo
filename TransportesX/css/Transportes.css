@@ -68,7 +68,7 @@ h2 {
 }
 
 /* inicio seccion home */
-/* .homeimg{
+.homeimg{
     margin-bottom: 1.5em;
 }
 .columnas{
@@ -99,11 +99,11 @@ h2 {
     text-align: center;
     margin: 1em 0;
     display: block;
-} */
+}
 /* fin seccion home */
 
 /* inicio seccion nosotros */
-/* .historia p{
+.historia p{
     font-size: 0.8em;
 }
 .personas{
@@ -147,7 +147,7 @@ h2 {
 }
 .persona:first-child {
     margin-left: 0;
-} */
+}
 /* fin seccion nosotros */
 
 /* inicio seccio servicios */
